@@ -1,44 +1,44 @@
 # Fetch
 
-En aquest repositori faràs servir _fetch_ per obtenir dades de forma asíncrona des d'una API.
+In this repository, you will use _fetch_ to asynchronously retrieve data from an API.
 
-## Objectius
+## Objectives
 
-- Fer servir Fetch per interactuar amb una API.
-- Fer servir l'_state_ de Vue per gestionar dades asíncrones.
+- Use Fetch to interact with an API.
+- Use Vue's _state_ to manage asynchronous data.
 
-## Configuració
+## Setup
 
-- Executa `npm install` per instal·lar els paquets (packages).
-- Executa `npm run dev` per executar el servidor de desenvolupament.
+- Run `npm install` to install the packages.
+- Run `npm run dev` to start the development server.
 
-## Requisits bàsics
+## Basic Requirements
 
-### 1. Crea un formulari.
+### 1. Create a form.
 
-- Aquest formulari hauria de tenir un input per "location" i un botó de "submit".
-  - Quan fem click a "submit" hem de cridar el mètode "getWeather" del teu component.
-  - Quan fem click a "submit" també hem d'actualitzar l'_state_ "loading" a true.
+- This form should have an input for "location" and a "submit" button.
+  - When you click "submit," you should call the "getWeather" method in your component.
+  - When you click "submit," you should also update the _state_ "loading" to true.
 
-### 2. Cridar a la Open Weather Map API.
+### 2. Call the Open Weather Map API.
 
-- Crida la Open Weather API des de la funció "getWeather".
-  - Necessitaràs crear un compte a [Open Weather Map API](https://openweathermap.org/). Necessitaràs la teva clau API (API key) per fer les peticions (requests).
-  - Fes servir "fetch" dins de la funció "getWeather" i crida a la Open Weather API per obtenir la informació del clima basada en la localització (_location_).
-  - Emmagatzema les dades del clima que has obtingut a l'_state_.
+- Call the Open Weather API from the "getWeather" function.
+  - You will need to create an account on [Open Weather Map API](https://openweathermap.org/) and obtain your API key to make requests.
+  - Use "fetch" inside the "getWeather" function to call the Open Weather API and retrieve weather information based on the _location_.
+  - Store the retrieved weather data in the _state_.
 
-### 3. Mostra a l'usuari informació útil (fes-ho atractiu visualment!)
+### 3. Display useful information to the user (make it visually appealing!)
 
-- Crea un element visual per quan les dades estan carregant (_loading_).
-- Mostra les dades del clima un cop s'hagin carregat.
-- Mostra un error si les dades no s'han carregat correctament.
+- Create a visual element to indicate when the data is loading (_loading_).
+- Display the weather data once it has been loaded.
+- Show an error if the data could not be loaded correctly.
 
-### 4. Opcional: Afegeix un botó addicional per canviar a la vista de la previsió del temps de 5 dies.
+### 4. Optional: Add an additional button to switch to the 5-day weather forecast view.
 
-- Per fer això, necessitaràs crear un segon botó que faci una crida a la API una mica diferent.
-  - Pots fer servir la mateixa funció; simplement cal alterar una mica la URL que estàs fent servir amb _fetch_ per obtenir les dades a 5 dies vista.
+- To achieve this, you will need to create a second button that makes a slightly different API call.
+  - You can use the same function; you just need to modify the URL used in _fetch_ to retrieve the 5-day forecast data.
 
-## Recursos
+## Resources
 
 - [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
@@ -47,4 +47,4 @@ En aquest repositori faràs servir _fetch_ per obtenir dades de forma asíncrona
 
 ## Notes
 
-_Aquest és un projecte d'estudiant creat a [CodeOp](http://CodeOp.tech), al bootcamp de Front End Development a Barcelona._
+_This is a student project created at [CodeOp](http://CodeOp.tech), during the Front End Development bootcamp in Barcelona._
