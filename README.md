@@ -11,6 +11,8 @@ Link: http://weather-app-red-ten.vercel.app
 
 ## Setup
 
+- Clone the Repository: git clone https://github.com/papercri/weather-app.git
+- Navigate to the Project Directory: cd weather-app
 - Run `npm install` to install the packages.
 - Run `npm run dev` to start the development server.
 
